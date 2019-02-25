@@ -1,4 +1,4 @@
-package ro.ubb.dp9;
+package ro.ubb.dp1819;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

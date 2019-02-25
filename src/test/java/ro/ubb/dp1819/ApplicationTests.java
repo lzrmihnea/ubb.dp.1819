@@ -1,4 +1,4 @@
-package ro.ubb.dp9;
+package ro.ubb.dp1819;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
