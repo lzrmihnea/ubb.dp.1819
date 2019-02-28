@@ -1,4 +1,4 @@
-package ro.ubb.dp1819.lab1.factory;
+package ro.ubb.dp1819.exercises;
 
 public interface AbstractFactory {
 }
