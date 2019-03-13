@@ -1,5 +1,7 @@
-package ro.ubb.dp1819.grigor.sebastian.lab1;
+package ro.ubb.dp1819.grigor.sebastian.lab1.drinks;
 
+
+import java.util.Objects;
 
 public class Ingredient {
     private String quantity;
@@ -24,32 +26,16 @@ public class Ingredient {
         return quantity;
     }
 
-    public void setQuantity(String quantity) {
-        this.quantity = quantity;
-    }
-
     public String getUnit() {
         return unit;
-    }
-
-    public void setUnit(String unit) {
-        this.unit = unit;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public String getAdjective() {
         return adjective;
-    }
-
-    public void setAdjective(String adjective) {
-        this.adjective = adjective;
     }
 
     @Override
@@ -66,5 +52,16 @@ public class Ingredient {
                 ", unit='" + unit + '\'' +
                 ", name='" + name + '\'' +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Ingredient that = (Ingredient) o;
+        return quantity.equals(that.quantity) &&
+                unit.equals(that.unit) &&
+                name.equals(that.name) &&
+                Objects.equals(adjective, that.adjective);
     }
 }

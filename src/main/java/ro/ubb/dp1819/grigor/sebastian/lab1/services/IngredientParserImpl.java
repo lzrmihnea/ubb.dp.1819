@@ -1,6 +1,6 @@
-package ro.ubb.dp1819.grigor.sebastian.lab1;
+package ro.ubb.dp1819.grigor.sebastian.lab1.services;
 
-import java.util.List;
+import ro.ubb.dp1819.grigor.sebastian.lab1.drinks.Ingredient;
 
 public class IngredientParserImpl implements IngredientParser {
 
