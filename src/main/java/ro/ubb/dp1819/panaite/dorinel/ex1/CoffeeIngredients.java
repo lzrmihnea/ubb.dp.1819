@@ -8,6 +8,10 @@ public class CoffeeIngredients extends BaseCoffeeIngredients {
     private String ingredient;
     private String adjective;
 
+    public CoffeeIngredients() {
+
+    }
+
     public CoffeeIngredients(double quantity, String unit, String ingredient) {
         this.quantity = quantity;
         this.unit = unit;
