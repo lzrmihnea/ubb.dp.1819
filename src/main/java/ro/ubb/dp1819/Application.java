@@ -8,6 +8,8 @@ import ro.ubb.dp1819.panaite.dorinel.ex1.BaseCoffeeIngredients;
 import ro.ubb.dp1819.panaite.dorinel.ex1.CoffeeDataInterpreter;
 import ro.ubb.dp1819.panaite.dorinel.ex1.CoffeeDataInterpreterException;
 import ro.ubb.dp1819.panaite.dorinel.ex1.CoffeeIngredients;
+import ro.ubb.dp1819.panaite.dorinel.ex2.Coffee;
+import ro.ubb.dp1819.panaite.dorinel.ex2.CoffeeFactory;
 
 import java.util.List;
 
@@ -17,11 +19,21 @@ public class Application {
 	public static void main(String[] args) {
 		ApplicationContext context = SpringApplication.run(Application.class, args);
 		AutowireCapableBeanFactory factory = context.getAutowireCapableBeanFactory();
-		CoffeeDataInterpreter coffeeDataInterpreter = factory.getBean(CoffeeDataInterpreter.class);
 
 		try {
-			List<BaseCoffeeIngredients> ingredientsList = coffeeDataInterpreter.getCoffee("/Users/vanpana/Documents/Personal/Programming/ubb.dp.1819/src/main/resources/coffee-ingreds.in");
-			ingredientsList.forEach(System.out::println);
+//			EX 1
+//			CoffeeDataInterpreter coffeeDataInterpreter = factory.getBean(CoffeeDataInterpreter.class);
+//			List<BaseCoffeeIngredients> ingredientsList = coffeeDataInterpreter.getCoffee("/Users/vanpana/Documents/Personal/Programming/ubb.dp.1819/src/main/resources/coffee-ingreds.in");
+//			ingredientsList.forEach(System.out::println);
+
+//			EX 2
+			CoffeeFactory coffeeFactory = factory.getBean(CoffeeFactory.class);
+			Coffee brewedCappuccino = coffeeFactory.brewCoffee("2 cups water + 0.25 cups coffee-beans roasted + 100 ml milk foamed");
+			Coffee brewedLatte = coffeeFactory.brewCoffee("200 ml milk foamed + 0.25 cups coffee-beans roasted");
+
+			System.out.println(brewedCappuccino.getCoffeeType());
+			System.out.println(brewedLatte.getCoffeeType());
+
 		} catch (CoffeeDataInterpreterException e) {
 			e.printStackTrace();
 		}
