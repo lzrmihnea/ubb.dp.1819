@@ -1,6 +1,8 @@
 package ro.ubb.dp1819.panaite.dorinel.ex1;
 
-public class CoffeeIngredients {
+import java.util.Objects;
+
+public class CoffeeIngredients extends BaseCoffeeIngredients {
     private double quantity;
     private String unit;
     private String ingredient;
@@ -52,16 +54,30 @@ public class CoffeeIngredients {
     }
 
     @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        CoffeeIngredients that = (CoffeeIngredients) o;
+        return Double.compare(that.quantity, quantity) == 0 &&
+                Objects.equals(unit, that.unit) &&
+                Objects.equals(ingredient, that.ingredient) &&
+                Objects.equals(adjective, that.adjective);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(quantity, unit, ingredient, adjective);
+    }
+
+    @Override
     public String toString() {
-        return adjective != null ? "CoffeeIngredients{" +
-                "quantity=" + quantity +
-                ", unit='" + unit + '\'' +
-                ", ingredient='" + ingredient + '\'' +
-                ", adjective='" + adjective + '\'' +
-                '}' : "CoffeeIngredients{" +
-                "quantity=" + quantity +
-                ", unit='" + unit + '\'' +
-                ", ingredient='" + ingredient + '\'' +
-                '}';
+        return adjective != null ?
+                quantity +
+                        " " + unit +
+                        " " + ingredient +
+                        " " + adjective :
+                quantity +
+                        " " + unit +
+                        " " + ingredient;
     }
 }

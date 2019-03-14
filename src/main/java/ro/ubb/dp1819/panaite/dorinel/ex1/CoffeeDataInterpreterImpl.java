@@ -1,6 +1,9 @@
 package ro.ubb.dp1819.panaite.dorinel.ex1;
 
+import ro.ubb.dp1819.panaite.dorinel.ex2.CompoundCoffeeIngredients;
+
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class CoffeeDataInterpreterImpl implements CoffeeDataInterpreter {
@@ -11,7 +14,7 @@ public class CoffeeDataInterpreterImpl implements CoffeeDataInterpreter {
     }
 
     @Override
-    public List<CoffeeIngredients> getCoffee(String filePath) throws CoffeeDataInterpreterException {
+    public List<BaseCoffeeIngredients> getCoffee(String filePath) throws CoffeeDataInterpreterException {
         try {
             // Read files from file
             List<String> coffeeLines = fileReadingService.readAllLines(filePath);
@@ -29,8 +32,8 @@ public class CoffeeDataInterpreterImpl implements CoffeeDataInterpreter {
      * @return coffee ingredients from the generated lines
      * @throws CoffeeDataInterpreterException if any error occurs while processing ingredients from line
      */
-    private List<CoffeeIngredients> interpretData(List<String> coffeeLines) throws CoffeeDataInterpreterException {
-        List<CoffeeIngredients> coffeeIngredients = new ArrayList<>();
+    private List<BaseCoffeeIngredients> interpretData(List<String> coffeeLines) throws CoffeeDataInterpreterException {
+        List<BaseCoffeeIngredients> coffeeIngredients = new ArrayList<>();
         List<String> errorList = new ArrayList<>();
 
         coffeeLines.forEach(line -> {
@@ -56,7 +59,7 @@ public class CoffeeDataInterpreterImpl implements CoffeeDataInterpreter {
     private void validateSplitLine(String[] splitLine) throws CoffeeDataInterpreterException {
         // Check line length
         if (splitLine.length < 3 || splitLine.length > 4)
-            throw new CoffeeDataInterpreterException("Line %s has an invalid length");
+            throw new CoffeeDataInterpreterException(String.format("Line %s has an invalid length", Arrays.asList(splitLine).toString()));
     }
 
     /**
@@ -65,13 +68,28 @@ public class CoffeeDataInterpreterImpl implements CoffeeDataInterpreter {
      * @return an instance of coffee ingredients
      * @throws CoffeeDataInterpreterException if line cannot be parsed
      */
-    private CoffeeIngredients getIngredientsFromLine(String line) throws CoffeeDataInterpreterException {
+    @Override
+    public BaseCoffeeIngredients getIngredientsFromLine(String line) throws CoffeeDataInterpreterException {
+        if (line.contains("+")) {
+            return createCompoundFromLine(line);
+        } else {
+            return createIngredientFromLine(splitAndValidateLine(line));
+        }
+    }
+
+    private String[] splitAndValidateLine(String line) throws CoffeeDataInterpreterException {
+        line = line.trim();
+
         // Split the ingredient line
         String[] splitLine = line.split(" ");
 
         // Validate the line
         validateSplitLine(splitLine);
 
+        return splitLine;
+    }
+
+    private BaseCoffeeIngredients createIngredientFromLine(String[] splitLine) {
         // Create ingredients
         double qty = Double.parseDouble(splitLine[0]);
         String unit = splitLine[1];
@@ -80,6 +98,16 @@ public class CoffeeDataInterpreterImpl implements CoffeeDataInterpreter {
 
         // Construct coffee ingredients
         return new CoffeeIngredients(qty, unit, ingredient, adjective);
+    }
+
+    private CompoundCoffeeIngredients createCompoundFromLine(String compoundLine) throws CoffeeDataInterpreterException {
+        String[] lines = compoundLine.split("\\+");
+
+        CompoundCoffeeIngredients compoundCoffeeIngredients = new CompoundCoffeeIngredients(createIngredientFromLine(splitAndValidateLine(lines[0])));
+        for (int i = 1; i < lines.length; i++) {
+            compoundCoffeeIngredients.addSecondIngredient(createIngredientFromLine(splitAndValidateLine(lines[i])));
+        }
+        return compoundCoffeeIngredients;
     }
 
     /**

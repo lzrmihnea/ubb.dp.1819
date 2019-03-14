@@ -4,6 +4,7 @@ import org.springframework.beans.factory.config.AutowireCapableBeanFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import ro.ubb.dp1819.panaite.dorinel.ex1.BaseCoffeeIngredients;
 import ro.ubb.dp1819.panaite.dorinel.ex1.CoffeeDataInterpreter;
 import ro.ubb.dp1819.panaite.dorinel.ex1.CoffeeDataInterpreterException;
 import ro.ubb.dp1819.panaite.dorinel.ex1.CoffeeIngredients;
@@ -19,7 +20,7 @@ public class Application {
 		CoffeeDataInterpreter coffeeDataInterpreter = factory.getBean(CoffeeDataInterpreter.class);
 
 		try {
-			List<CoffeeIngredients> ingredientsList = coffeeDataInterpreter.getCoffee("/Users/vanpana/Documents/Personal/Programming/ubb.dp.1819/src/main/resources/coffee-ingreds.in");
+			List<BaseCoffeeIngredients> ingredientsList = coffeeDataInterpreter.getCoffee("/Users/vanpana/Documents/Personal/Programming/ubb.dp.1819/src/main/resources/coffee-ingreds.in");
 			ingredientsList.forEach(System.out::println);
 		} catch (CoffeeDataInterpreterException e) {
 			e.printStackTrace();
