@@ -80,4 +80,13 @@ sums up the Prices of the Leaves.
 Ex 2.4 Proxy
 Around the Service which creates the car, create a Proxy service, which prints all car creations, along with their costs.
   
+Ex 2.5 Decorator
+Add CarDecorations, extending the Car class.
+Adapt the CarPricingComposite to take a common (different) Interface, such as the CarPriceable, which can have in its 
+leaves both Car Components and Car Decorations. The Car decorations do not add functionality, only cost (The Paint will 
+remain a Component, despite not necessarily adding real-world functionality).
 
+The classes are purposefully ambiguous and some Interfaces are purposefully not used in classes. See which are better 
+suited for which uses of our exercises. 
+
+Ask your teachers if the instructions are unclear. 
