@@ -10,7 +10,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class FileReadingServiceImpl implements FileReadingService {
-    public List<String> readFileInList(String fileName)
+    public List<String> readFileAsStringList(String fileName)
     {
         List<String> lines = Collections.emptyList();
         try

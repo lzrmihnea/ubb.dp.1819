@@ -3,5 +3,5 @@ package SOLID;
 import java.util.List;
 
 public interface FileReadingService {
-    List<String> readFileInList(String fileName);
+    List<String> readFileAsStringList(String fileName);
 }
