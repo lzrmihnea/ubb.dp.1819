@@ -1,10 +1,14 @@
 package ro.ubb.dp1819.lab1.exercises.entity;
 
-import ro.ubb.dp1819.lab1.exercises.entity.Coffee;
+import java.util.List;
 
-public class Espresso implements Coffee {
+public class Espresso extends CoffeeType{
+    public Espresso(List<Ingredient> ingredients) {
+        super(ingredients);
+    }
+
     @Override
-    public void printType() {
-        System.out.println("espresso");
+    public String toString() {
+        return "espresso";
     }
 }

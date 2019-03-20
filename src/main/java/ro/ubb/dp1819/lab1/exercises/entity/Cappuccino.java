@@ -1,9 +1,14 @@
 package ro.ubb.dp1819.lab1.exercises.entity;
 
-public class Cappuccino implements Coffee{
+import java.util.List;
+
+public class Cappuccino extends CoffeeType{
+    public Cappuccino(List<Ingredient> ingredients) {
+        super(ingredients);
+    }
 
     @Override
-    public void printType() {
-        System.out.println("cappuccino");
+    public String toString() {
+        return "cappuccino";
     }
 }

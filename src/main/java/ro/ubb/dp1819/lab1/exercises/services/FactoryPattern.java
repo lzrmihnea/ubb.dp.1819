@@ -1,6 +1,6 @@
 package ro.ubb.dp1819.lab1.exercises.services;
 
-import ro.ubb.dp1819.lab1.exercises.entity.Coffee;
+import ro.ubb.dp1819.lab1.exercises.entity.CoffeeType;
 import ro.ubb.dp1819.lab1.exercises.entity.Ingredient;
 import java.util.List;
 
@@ -15,8 +15,8 @@ public class FactoryPattern {
             List<Ingredient> ingredients = coffeeService.getIngredientsFromList(words);
             System.out.println(ingredients);
 
-            Coffee coffe = coffeeFactory.getCoffee(ingredients);
-            coffe.printType();
+            CoffeeType coffee = coffeeFactory.getCoffee(ingredients);
+            System.out.println(coffee);
 
         }catch(Exception e){
             System.out.println(e.getMessage());

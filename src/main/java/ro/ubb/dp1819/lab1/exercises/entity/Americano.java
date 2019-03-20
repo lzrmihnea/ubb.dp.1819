@@ -1,10 +1,14 @@
 package ro.ubb.dp1819.lab1.exercises.entity;
 
-import ro.ubb.dp1819.lab1.exercises.entity.Coffee;
+import java.util.List;
 
-public class Americano implements Coffee {
+public class Americano extends CoffeeType{
+    public Americano(List<Ingredient> ingredients) {
+        super(ingredients);
+    }
+
     @Override
-    public void printType() {
-        System.out.println("americano");
+    public String toString() {
+        return "americano";
     }
 }
