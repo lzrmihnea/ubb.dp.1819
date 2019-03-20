@@ -1,5 +1,7 @@
 package SOLID;
 
+import java.util.Objects;
+
 public class Ingredient {
     private double quantity;
     private String unit;
@@ -59,5 +61,21 @@ public class Ingredient {
                 ", ingredient='" + ingredient + '\'' +
                 ", adjective='" + adjective + '\'' +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Ingredient that = (Ingredient) o;
+        return Double.compare(that.quantity, quantity) == 0 &&
+                Objects.equals(unit, that.unit) &&
+                Objects.equals(ingredient, that.ingredient) &&
+                Objects.equals(adjective, that.adjective);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(quantity, unit, ingredient, adjective);
     }
 }
