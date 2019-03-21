@@ -1,7 +1,17 @@
 # ubb.dp.1819
 UBB Design Patterns repository for university year 2018-2019
-Lecture Notes on the bottom of the page
 
+# Lecture Notes
+## Introduction to Course
+http://www.cs.ubbcluj.ro/~arthur/dp2018/00.Introduction%20to%20Course.pdf
+
+## OOP Recap. SOLID Principles
+http://www.cs.ubbcluj.ro/~arthur/dp2018/01.Recap.%20SOLID%20Principles.pdf
+
+## Creational Patterns
+http://www.cs.ubbcluj.ro/~arthur/dp2018/02.Creational%20Patterns.pdf
+
+# Laboratories
 ## Lab 1. Creational Patterns
 - Singleton
 - Factory
@@ -40,14 +50,6 @@ The list of possible coffee types:
 
 ### Ex. 1.3. Coffee Builder
 Encapsulate the creation of the coffee with each line of ingredients with a builder. 
-
-# Lecture Notes
-
-## Introduction to Course
-http://www.cs.ubbcluj.ro/~arthur/dp2018/00.Introduction%20to%20Course.pdf
-
-## OOP Recap. SOLID Principles
-http://www.cs.ubbcluj.ro/~arthur/dp2018/01.Recap.%20SOLID%20Principles.pdf
 
 ## Lab 2. Structural Patterns
 - Adapter
