@@ -1,0 +1,4 @@
+quantity (200)|unit (ml)|ingredient (milk)|adjective (boiled, steamed, roasted, etc.)
+200|200|milk|roasted
+150|150|sugar
+200|100|water|boiled
