@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StringService {
+public final class StringService {
 
     private static final String FILENAME = "C:\\Users\\PortatilPapa2\\Documents\\L3 S6 CLUJ\\CLUJ_DesignPatterns\\ubb.dp.1819-master\\src\\main\\java\\ro\\ubb\\dp1819\\lab1\\lucia\\alonso\\ex11\\exemple";
 

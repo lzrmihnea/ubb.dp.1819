@@ -2,7 +2,6 @@ package ro.ubb.dp1819.lab1.alonso.lucia.ex12;
 
 import ro.ubb.dp1819.lab1.alonso.lucia.ex12.entity.*;
 import ro.ubb.dp1819.lab1.alonso.lucia.ex11.Ingredient;
-import ro.ubb.dp1819.lab1.alonsolucia.ex12.entity.*;
 
 public class StarbucksFactory implements AbstractCoffeeFactory {
 

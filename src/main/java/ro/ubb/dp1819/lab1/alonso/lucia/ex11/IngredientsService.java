@@ -3,7 +3,7 @@ package ro.ubb.dp1819.lab1.alonso.lucia.ex11;
 import java.util.ArrayList;
 import java.util.List;
 
-public class IngredientsService {
+public final class IngredientsService {
 
 
     public static List<Ingredient> stringListToIngredients(List<String> listeString){
