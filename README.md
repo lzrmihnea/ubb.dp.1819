@@ -1,8 +1,22 @@
 # ubb.dp.1819
 UBB Design Patterns repository for university year 2018-2019
-Lecture Notes on the bottom of the page
 
-## Lab 1
+# Lecture Notes
+## Introduction to Course
+http://www.cs.ubbcluj.ro/~arthur/dp2018/00.Introduction%20to%20Course.pdf
+
+## OOP Recap. SOLID Principles
+http://www.cs.ubbcluj.ro/~arthur/dp2018/01.Recap.%20SOLID%20Principles.pdf
+
+## Creational Patterns
+http://www.cs.ubbcluj.ro/~arthur/dp2018/02.Creational%20Patterns.pdf
+
+# Laboratories
+## Lab 1. Creational Patterns
+- Singleton
+- Factory
+- Builder
+- Prototype
 
 ### Ex. 1.1. Encapsulation
 We will want to read information from a file and interpret this information via a Service.
@@ -37,10 +51,44 @@ The list of possible coffee types:
 ### Ex. 1.3. Coffee Builder
 Encapsulate the creation of the coffee with each line of ingredients with a builder. 
 
-# Lecture Notes
+## Lab 2. Structural Patterns
+- Adapter
+- Bridge
+- Composite
+- Decorator
+- Facade
 
-## Introduction to Course
-http://www.cs.ubbcluj.ro/~arthur/dp2018/00.Introduction%20to%20Course.pdf
+Ex 2.1. Adapter  
+Adapt the Service which reads coffee ingredients from a file to read Car Parts
+- 4 summer wheels (can be summer or winter)
+- 1 titanium chassis (can be titanium, aluminium, vibranium or adamantium)
+- 1 electric engine (can be electric, diesel or GPL)
+- 1 red paint (can be red, white, black, blue, pink, green, yellow)
 
-## OOP Recap. SOLID Principles
-http://www.cs.ubbcluj.ro/~arthur/dp2018/01.Recap.%20SOLID%20Principles.pdf
+Ex 2.2. Bridge 
+Create a Service which, depending on the given car parts, creates a car with the given components
+- use the classes given in the Examples package (to be added on 15.03.2019-18.03.2019)
+- print to the output how that car would look like 
+
+Ex 2.3. Composite
+Create a basic PriceComposite, which has as leaves basic components. 
+Define in the Component if the Leaf has a Fixed Price or a calculated Price.
+All basic car parts will have Fixed prices.
+Only the Car root element will have a Computed Price. 
+This will be calculated on request via a method invocation on the Composite root, which, 
+if the Price is fixed, returns the direct Price of the Component, if the Price should be computed, 
+sums up the Prices of the Leaves. 
+
+Ex 2.4 Proxy
+Around the Service which creates the car, create a Proxy service, which prints all car creations, along with their costs.
+  
+Ex 2.5 Decorator
+Add CarDecorations, extending the Car class.
+Adapt the CarPricingComposite to take a common (different) Interface, such as the CarPriceable, which can have in its 
+leaves both Car Components and Car Decorations. The Car decorations do not add functionality, only cost (The Paint will 
+remain a Component, despite not necessarily adding real-world functionality).
+
+The classes are purposefully ambiguous and some Interfaces are purposefully not used in classes. See which are better 
+suited for which uses of our exercises. 
+
+Ask your teachers if the instructions are unclear. 
