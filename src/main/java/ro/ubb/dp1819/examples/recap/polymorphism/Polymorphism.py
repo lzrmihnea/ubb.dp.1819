@@ -18,6 +18,6 @@ a.talk()
 c.talk()
 d.talk()
 
-# Both value AND type are transferred 
+# Both value AND material are transferred
 a = c
 c.talk()
