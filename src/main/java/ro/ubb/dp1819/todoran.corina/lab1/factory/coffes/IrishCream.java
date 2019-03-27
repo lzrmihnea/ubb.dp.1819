@@ -1,6 +1,6 @@
 package ro.ubb.dp1819.todoran.corina.lab1.factory.coffes;
 
-import ro.ubb.dp1819.todoran.corina.lab1.encapsulation.Ingredient;
+import ro.ubb.dp1819.todoran.corina.lab1.model.Ingredient;
 
 import java.util.Arrays;
 

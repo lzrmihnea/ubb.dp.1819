@@ -1,8 +1,8 @@
 package ro.ubb.dp1819.todoran.corina.lab1;
 
 import ro.ubb.dp1819.todoran.corina.lab1.builder.CoffeeBuilder;
-import ro.ubb.dp1819.todoran.corina.lab1.encapsulation.Ingredient;
-import ro.ubb.dp1819.todoran.corina.lab1.encapsulation.IngredientsInterpretService;
+import ro.ubb.dp1819.todoran.corina.lab1.model.Ingredient;
+import ro.ubb.dp1819.todoran.corina.lab1.encapsulation.CoffeeInterpreter;
 import ro.ubb.dp1819.todoran.corina.lab1.encapsulation.ReadFileService;
 import ro.ubb.dp1819.todoran.corina.lab1.factory.CoffeeException;
 import ro.ubb.dp1819.todoran.corina.lab1.factory.CoffeeFactory;
@@ -15,9 +15,9 @@ import java.util.List;
 public class Lab1Main {
     public static void main(String[] args) {
         // 1.1
-        File file = new File("src\\main\\java\\ro\\ubb\\dp1819\\todoran.corina\\lab1\\encapsulation\\ingredients_encapsulation.txt");
+        File file = new File("src\\main\\java\\ro\\ubb\\dp1819\\todoran.corina\\lab1\\model\\ingredients_encapsulation.txt");
         ReadFileService reader = new ReadFileService();
-        IngredientsInterpretService interpret = new IngredientsInterpretService();
+        CoffeeInterpreter interpret = new CoffeeInterpreter();
         List<Ingredient> ingredients = interpret.interpretIngredients(reader.readFile(file));
         ingredients.forEach(System.out::println);
 

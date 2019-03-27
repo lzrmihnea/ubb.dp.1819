@@ -13,7 +13,8 @@ public class CarPricingComposite implements PriceableComponent {
 
     @Override
     public Long getPrice() {
-//        TODO
-        return null;
+        return elements.stream()
+                .map(PriceableComponent::getPrice)
+                .reduce(0L, (a, b) -> a + b);
     }
 }

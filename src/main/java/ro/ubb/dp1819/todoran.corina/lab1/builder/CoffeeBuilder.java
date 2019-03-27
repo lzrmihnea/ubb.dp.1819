@@ -1,6 +1,6 @@
 package ro.ubb.dp1819.todoran.corina.lab1.builder;
 
-import ro.ubb.dp1819.todoran.corina.lab1.encapsulation.Ingredient;
+import ro.ubb.dp1819.todoran.corina.lab1.model.Ingredient;
 import ro.ubb.dp1819.todoran.corina.lab1.factory.CoffeeException;
 import ro.ubb.dp1819.todoran.corina.lab1.factory.coffes.Coffee;
 

@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ReadFileService {
+public class ReadFileService implements IReaderService {
     public List<String> readFile(File filename) {
         List<String> lines = new ArrayList<>();
         String line;

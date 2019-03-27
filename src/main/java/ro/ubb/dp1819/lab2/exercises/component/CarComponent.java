@@ -1,4 +1,6 @@
 package ro.ubb.dp1819.lab2.exercises.component;
 
-public interface CarComponent {
+import ro.ubb.dp1819.lab2.exercises.pricing.PriceableComponent;
+
+public interface CarComponent extends PriceableComponent {
 }
