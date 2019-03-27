@@ -1,4 +1,4 @@
-package ro.ubb.dp1819.exercises;
+package ro.ubb.dp1819.luca.alex.ex1_1;
 
 import java.util.Objects;
 

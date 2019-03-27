@@ -1,8 +1,8 @@
 package ro.ubb.dp1819.luca.alex.ex1_3;
 
-import ro.ubb.dp1819.exercises.CoffeeType;
-import ro.ubb.dp1819.exercises.Ingredient;
-import ro.ubb.dp1819.exercises.entity.*;
+import ro.ubb.dp1819.luca.alex.ex1_1.CoffeeType;
+import ro.ubb.dp1819.luca.alex.ex1_1.Ingredient;
+import ro.ubb.dp1819.luca.alex.ex1_1.entity.*;
 
 public class CoffeeBuilder {
     private Drinkable coffee;

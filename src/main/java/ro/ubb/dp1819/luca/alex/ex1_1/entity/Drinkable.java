@@ -1,6 +1,6 @@
-package ro.ubb.dp1819.exercises.entity;
+package ro.ubb.dp1819.luca.alex.ex1_1.entity;
 
-import ro.ubb.dp1819.exercises.Ingredient;
+import ro.ubb.dp1819.luca.alex.ex1_1.Ingredient;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,7 +1,6 @@
-package ro.ubb.dp1819.exercises;
+package ro.ubb.dp1819.luca.alex.ex1_1;
 
-import ro.ubb.dp1819.exercises.entity.*;
-import ro.ubb.dp1819.luca.alex.ex1_1.CoffeeException;
+import ro.ubb.dp1819.luca.alex.ex1_1.entity.*;
 import ro.ubb.dp1819.luca.alex.ex1_3.CoffeeBuilder;
 
 import java.util.ArrayList;

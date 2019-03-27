@@ -1,8 +1,8 @@
 package ro.ubb.dp1819.luca.alex;
 
-import ro.ubb.dp1819.exercises.CoffeeFactory;
-import ro.ubb.dp1819.exercises.LucaCoffeeFactory;
-import ro.ubb.dp1819.exercises.entity.Drinkable;
+import ro.ubb.dp1819.luca.alex.ex1_1.CoffeeFactory;
+import ro.ubb.dp1819.luca.alex.ex1_1.LucaCoffeeFactory;
+import ro.ubb.dp1819.luca.alex.ex1_1.entity.Drinkable;
 import ro.ubb.dp1819.luca.alex.ex1_1.BasicFileReaderService;
 import ro.ubb.dp1819.luca.alex.ex1_1.CoffeeException;
 import ro.ubb.dp1819.luca.alex.ex1_1.FileReaderService;
