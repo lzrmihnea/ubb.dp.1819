@@ -40,7 +40,7 @@ Using the Single-Responsibility principle from SOLID, please create 2 Services:
 
 
 ### Ex. 1.2. Coffee Factory
-Create a Coffee Service implementation to return an identified coffee material depending on the ingredients given as input
+Create a Coffee Service implementation to return an identified coffee type depending on the ingredients given as input
 
 The list of possible coffee types:
 - espresso: 2 cups water + 0.25 cups coffee-beans roasted
@@ -66,21 +66,21 @@ Adapt the Service which reads coffee ingredients from a file to read Car Parts
 - 1 red paint (can be red, white, black, blue, pink, green, yellow)
 
 Ex 2.2. Bridge 
-Create a Service which, depending on the given priceable parts, creates a priceable with the given components
+Create a Service which, depending on the given car parts, creates a car with the given components
 - use the classes given in the Examples package (to be added on 15.03.2019-18.03.2019)
-- print to the output how that priceable would look like 
+- print to the output how that car would look like 
 
 Ex 2.3. Composite
 Create a basic PriceComposite, which has as leaves basic components. 
 Define in the Component if the Leaf has a Fixed Price or a calculated Price.
-All basic priceable parts will have Fixed prices.
+All basic car parts will have Fixed prices.
 Only the Car root element will have a Computed Price. 
 This will be calculated on request via a method invocation on the Composite root, which, 
 if the Price is fixed, returns the direct Price of the Component, if the Price should be computed, 
 sums up the Prices of the Leaves. 
 
 Ex 2.4 Proxy
-Around the Service which creates the priceable, create a Proxy service, which prints all priceable creations, along with their costs.
+Around the Service which creates the car, create a Proxy service, which prints all car creations, along with their costs.
   
 Ex 2.5 Decorator
 Add CarDecorations, extending the Car class.
