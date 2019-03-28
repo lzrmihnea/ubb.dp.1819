@@ -6,4 +6,8 @@ public class CoolCar implements Driveable {
 
     private Driveable car;
 
+    @Override
+    public void show() {
+
+    }
 }

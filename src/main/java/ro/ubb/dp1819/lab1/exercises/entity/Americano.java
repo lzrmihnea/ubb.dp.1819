@@ -1,9 +1,9 @@
 package ro.ubb.dp1819.lab1.exercises.entity;
 
-public class Latte extends Drinkable {
+public class Americano extends Drinkable {
 
-    public static class LatteBuilder extends AbstractBuilder{
-        private Drinkable coffee = new Latte();
+    public static class AmericanoBuilder extends AbstractBuilder{
+        private Drinkable coffee = new Americano();
 
         @Override
         public AbstractBuilder setNoCupsWater(Integer no){
@@ -35,7 +35,7 @@ public class Latte extends Drinkable {
         }
     }
 
-    protected Latte(){
+    protected Americano(){
     }
 
     @Override
