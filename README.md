@@ -92,3 +92,55 @@ The classes are purposefully ambiguous and some Interfaces are purposefully not 
 suited for which uses of our exercises. 
 
 Ask your teachers if the instructions are unclear. 
+
+
+## Lab 3. Behavioral patterns (Command, Mediator, Observer)
+Chess pieces:
+- peon ( 1 square forward, 1 square diagonal attack )
+- horse ( L movement )
+- bishop ( diagonal movement )
+each piece has 
+- a current position (vert, horiz)
+- isAlive
+- color (black, white)
+
+MovementCommand : interface
+
+Possible commands:
+- peon 1 square forward
+- peon 1 square forward (only on attack)
+- horse L movement 
+- bishop diagonal movement 
+
+Mediator:
+- board
+- attacks 
+
+Observer: 
+- print movement for white pieces 
+
+
+### Ex. 3.1. Command pattern
+Create movement command classes for each movement 
+- peon basic move ( 1 forward ) 
+- horse L movement 
+- bishop diagonal movement 
+- attack movement(fromPiece, toPiece) 
+
+
+### Ex. 3.2. Mediator pattern 
+Create a Board (Mediator) with dimensions which takes a list of pieces, with positions along with their actions:
+The Mediator has always the list of where each piece is 
+Each movement of a piece is checked to see if there is already a piece there.
+
+- piece1 move => Mediator checks if there is another piece already there, invokes attack action if there is 
+- piece1 move => same thing
+- piece2 move => same thing
+
+### Ex. 3.3. Observer pattern 
+Observer : interface 
+- KillCounterObserver - counts kills
+- PrintObserver - simply prints 
+Add to the mediator a list of Observers (abstract)
+Call the observer list each time an attack appears
+Add a third Observer, to your choice
