@@ -1,0 +1,2 @@
+~~engine, chassis, wheel1, wheel2, wheel3, wheel4, paint~~
+electric|titanium|summer|summer|summer|summer|red
