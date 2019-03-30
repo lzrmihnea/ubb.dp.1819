@@ -1,8 +1,9 @@
 package ro.ubb.dp1819.fulea.razvan.lab2.adapter;
 
-import java.io.*;
-import java.util.HashMap;
-import java.util.Map;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 
 class ReadCoffeeService {
 

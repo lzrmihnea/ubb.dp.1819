@@ -3,7 +3,7 @@ package ro.ubb.dp1819.fulea.razvan.lab2;
 import ro.ubb.dp1819.fulea.razvan.lab2.adapter.AdapterMain;
 import ro.ubb.dp1819.fulea.razvan.lab2.bridge.BridgeMain;
 import ro.ubb.dp1819.fulea.razvan.lab2.composite.CompositeMain;
-import ro.ubb.dp1819.fulea.razvan.lab2.decorator.DecoratorPattern;
+import ro.ubb.dp1819.fulea.razvan.lab2.decorator.DecoratorMain;
 import ro.ubb.dp1819.fulea.razvan.lab2.proxy.ProxyMain;
 
 public class Main {
@@ -22,7 +22,7 @@ public class Main {
         System.out.println("======= Composite =======\n");
 
         System.out.println("\n======= Decorator =======");
-        DecoratorPattern.run();
+        DecoratorMain.run();
         System.out.println("======= Decorator=======\n");
 
         System.out.println("\n======= Proxy =======");

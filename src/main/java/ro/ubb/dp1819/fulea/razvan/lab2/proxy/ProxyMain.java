@@ -17,6 +17,7 @@ public class ProxyMain {
         for (Car car: cars){
             System.out.print(car + " ");
         }
+        System.out.println();
     }
 
 }
