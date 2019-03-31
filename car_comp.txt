@@ -1,0 +1,4 @@
+4,wheel,summer
+1,chassis,aluminium
+1,engine,diesel
+1,paint,white
