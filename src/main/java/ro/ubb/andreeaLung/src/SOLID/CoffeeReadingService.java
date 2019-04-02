@@ -9,7 +9,7 @@ import java.nio.file.Paths;
 import java.util.Collections;
 import java.util.List;
 
-public class FileReadingServiceImpl implements FileReadingService {
+public class CoffeeReadingService implements FileReadingService {
     public List<String> readFileAsStringList(String fileName)
     {
         List<String> lines = Collections.emptyList();

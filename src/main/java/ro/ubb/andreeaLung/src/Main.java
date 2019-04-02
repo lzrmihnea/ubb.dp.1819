@@ -1,3 +1,5 @@
+import Adapter.Adapter;
+import Adapter.CarPartsReadingService;
 import Builder.CoffeeBuilder;
 import Factory.Coffee;
 import Factory.CoffeeFactory;
@@ -12,7 +14,7 @@ public class Main {
     public static void main(String args[]) {
         // ex1
         System.out.println("\nEX1\n");
-        FileReadingService fileReadingService = new FileReadingServiceImpl();
+        FileReadingService fileReadingService = new CoffeeReadingService();
         CoffeInterpreterService coffeInterpreterService = new CoffeeInterpreterServiceImpl();
 
         List<String> coffeeStringList = fileReadingService.readFileAsStringList("src/coffee_ingredients");
@@ -49,5 +51,22 @@ public class Main {
         Coffee coffee4 = coffeeBuilder4.addIngredient(coffeeIngredients.get(7)).addIngredient(coffeeIngredients.get(8)).build();
 
         Arrays.asList(coffee1,coffee2,coffee3,coffee4).forEach(coffee -> System.out.println(coffee.getType()));
+
+
+
+        // LAB 2 ----------------------------------------------------------------------------------------------------------------
+
+
+        // Adapter
+        System.out.println("\nAdapter\n");
+        Adapter carAdapter = new Adapter(fileReadingService);
+        CarPartsReadingService carPartsReadingService = new CarPartsReadingService(carAdapter);
+        List<String> carParts = carPartsReadingService.readCarPartsFromFile("src/car_parts");
+
+        carParts.forEach(System.out::println);
+
+
+        // Bridge
+
     }
 }
