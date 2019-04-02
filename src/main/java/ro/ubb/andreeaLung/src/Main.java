@@ -52,21 +52,5 @@ public class Main {
 
         Arrays.asList(coffee1,coffee2,coffee3,coffee4).forEach(coffee -> System.out.println(coffee.getType()));
 
-
-
-        // LAB 2 ----------------------------------------------------------------------------------------------------------------
-
-
-        // Adapter
-        System.out.println("\nAdapter\n");
-        Adapter carAdapter = new Adapter(fileReadingService);
-        CarPartsReadingService carPartsReadingService = new CarPartsReadingService(carAdapter);
-        List<String> carParts = carPartsReadingService.readCarPartsFromFile("src/car_parts");
-
-        carParts.forEach(System.out::println);
-
-
-        // Bridge
-
     }
 }
