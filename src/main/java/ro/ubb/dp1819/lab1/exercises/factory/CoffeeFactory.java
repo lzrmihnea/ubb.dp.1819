@@ -1,11 +1,11 @@
-package ro.ubb.dp1819.exercises.factory;
+package ro.ubb.dp1819.lab1.exercises.factory;
 
-import ro.ubb.dp1819.exercises.entity.*;
+import ro.ubb.dp1819.lab1.exercises.entity.*;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static ro.ubb.dp1819.exercises.utils.Constants.*;
+import static ro.ubb.dp1819.lab1.exercises.utils.Constants.*;
 
 public class CoffeeFactory implements AbstractFactory {
 

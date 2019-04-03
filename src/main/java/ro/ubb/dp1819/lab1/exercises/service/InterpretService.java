@@ -1,6 +1,6 @@
-package ro.ubb.dp1819.exercises.service;
+package ro.ubb.dp1819.lab1.exercises.service;
 
-import ro.ubb.dp1819.exercises.entity.Ingredient;
+import ro.ubb.dp1819.lab1.exercises.entity.Ingredient;
 
 import java.util.ArrayList;
 import java.util.Arrays;

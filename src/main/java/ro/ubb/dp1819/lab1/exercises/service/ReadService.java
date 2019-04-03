@@ -1,4 +1,4 @@
-package ro.ubb.dp1819.exercises.service;
+package ro.ubb.dp1819.lab1.exercises.service;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

@@ -1,15 +1,15 @@
-package ro.ubb.dp1819.exercises;
+package ro.ubb.dp1819.lab1.exercises;
 
-import ro.ubb.dp1819.exercises.entity.Coffee;
-import ro.ubb.dp1819.exercises.entity.Ingredient;
-import ro.ubb.dp1819.exercises.factory.CoffeeFactory;
-import ro.ubb.dp1819.exercises.service.InterpretService;
-import ro.ubb.dp1819.exercises.service.ReadService;
+import ro.ubb.dp1819.lab1.exercises.entity.Coffee;
+import ro.ubb.dp1819.lab1.exercises.entity.Ingredient;
+import ro.ubb.dp1819.lab1.exercises.factory.CoffeeFactory;
+import ro.ubb.dp1819.lab1.exercises.service.InterpretService;
+import ro.ubb.dp1819.lab1.exercises.service.ReadService;
 
 import java.util.List;
 
-import static ro.ubb.dp1819.exercises.utils.Constants.PROJECT_DIRECTORY;
-import static ro.ubb.dp1819.exercises.utils.Constants.SEPARATOR;
+import static ro.ubb.dp1819.lab1.exercises.utils.Constants.PROJECT_DIRECTORY;
+import static ro.ubb.dp1819.lab1.exercises.utils.Constants.SEPARATOR;
 
 public class Main {
 

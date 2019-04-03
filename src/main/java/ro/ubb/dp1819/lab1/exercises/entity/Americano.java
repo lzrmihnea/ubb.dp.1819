@@ -1,4 +1,4 @@
-package ro.ubb.dp1819.exercises.entity;
+package ro.ubb.dp1819.lab1.exercises.entity;
 
 public class Americano extends Coffee implements Drinkable {
 

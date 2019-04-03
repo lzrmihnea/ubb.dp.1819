@@ -1,6 +1,6 @@
-package ro.ubb.dp1819.exercises.utils;
+package ro.ubb.dp1819.lab1.exercises.utils;
 
-import ro.ubb.dp1819.exercises.entity.Ingredient;
+import ro.ubb.dp1819.lab1.exercises.entity.Ingredient;
 
 public final class Constants {
 
