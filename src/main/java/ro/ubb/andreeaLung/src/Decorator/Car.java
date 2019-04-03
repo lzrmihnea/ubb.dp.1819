@@ -1,5 +1,10 @@
-package Bridge.model;
+package Decorator;
 
+
+import Decorator.carComponents.Chassis;
+import Decorator.carComponents.Engine;
+import Decorator.carComponents.Paint;
+import Decorator.carComponents.Wheel;
 import Proxy.CarPriceable;
 
 import java.util.List;
