@@ -6,7 +6,7 @@ public class CarPricingLeaf implements PriceableComponent {
 
     @Override
     public Long getPrice() {
-//        TODO
+        carPriceableEl.getPrice();
         return null;
     }
 }

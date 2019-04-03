@@ -13,7 +13,10 @@ public class CarPricingComposite implements PriceableComponent {
 
     @Override
     public Long getPrice() {
-//        TODO
-        return null;
+        Long price = 0L;
+        for (PriceableComponent component: elements){
+            price = price + component.getPrice();
+        }
+        return price;
     }
 }

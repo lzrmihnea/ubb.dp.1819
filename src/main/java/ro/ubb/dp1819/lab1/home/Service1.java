@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Service1 {
+public class Service1 implements ICoffee{
 
     private String filename;
 
@@ -14,7 +14,7 @@ public class Service1 {
         this.filename = filename;
     }
 
-    public List<String> run() {
+    public void run() {
         List<String> lines = new ArrayList<>();
         try {
             BufferedReader bufferedReader = new BufferedReader(new FileReader(this.filename));
@@ -26,6 +26,9 @@ public class Service1 {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return lines;
+
+        for (String line: lines){
+            System.out.println(line);
+        }
     }
 }

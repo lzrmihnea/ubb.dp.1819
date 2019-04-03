@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Service2 {
+public class Service2 implements ICoffee{
 
     private String filename;
 
@@ -14,7 +14,7 @@ public class Service2 {
         this.filename = filename;
     }
 
-    public List<CoffeeIngredient> run() {
+    public void run() {
         List<CoffeeIngredient> ingredients = new ArrayList<>();
         try {
             BufferedReader bufferedReader = new BufferedReader(new FileReader(this.filename));
@@ -39,6 +39,9 @@ public class Service2 {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return ingredients;
+
+        for (CoffeeIngredient ingredient: ingredients){
+            System.out.println(ingredient);
+        }
     }
 }
