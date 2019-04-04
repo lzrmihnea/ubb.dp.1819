@@ -14,7 +14,8 @@ public class Application {
 		ApplicationContext context = SpringApplication.run(Application.class, args);
 		AutowireCapableBeanFactory factory = context.getAutowireCapableBeanFactory();
 
-//		try {
+		//<editor-fold desc="LAB 1 STUFF">
+		//		try {
 ////			EX 1
 ////			CoffeeDataInterpreter coffeeDataInterpreter = factory.getBean(CoffeeDataInterpreter.class);
 ////			List<BaseCoffeeIngredients> ingredientsList = coffeeDataInterpreter.getCoffee("/Users/vanpana/Documents/Personal/Programming/ubb.dp.1819/src/main/resources/coffee-ingreds.in");
@@ -32,41 +33,42 @@ public class Application {
 //			e.printStackTrace();
 //		}
 
-		CoffeeBuilder coffeeBuilder = new CoffeeBuilder();
-		BaseCoffeeIngredients singleIngredients = coffeeBuilder.quantity(2)
-				.unit("ml")
-				.ingredient("milk")
-				.adjective("foamed")
-				.build();
-
-		BaseCoffeeIngredients compoundIngredients = coffeeBuilder.quantity(2)
-				.unit("ml")
-				.ingredient("milk")
-				.adjective("foamed")
-				.newIngredients()
-				.quantity(12)
-				.unit("cups")
-				.ingredient("coffee-beans")
-				.build();
-
-		BaseCoffeeIngredients extraCompoundIngredients = coffeeBuilder.quantity(2)
-				.unit("ml")
-				.ingredient("milk")
-				.adjective("foamed")
-				.newIngredients()
-				.quantity(12)
-				.unit("cups")
-				.ingredient("coffee-beans")
-				.newIngredients()
-				.quantity(42)
-				.unit("ml")
-				.ingredient("syrup")
-				.adjective("sweet")
-				.build();
-
-		System.out.println(singleIngredients);
-		System.out.println(compoundIngredients);
-		System.out.println(extraCompoundIngredients);
+//		CoffeeBuilder coffeeBuilder = new CoffeeBuilder();
+//		BaseCoffeeIngredients singleIngredients = coffeeBuilder.quantity(2)
+//				.unit("ml")
+//				.ingredient("milk")
+//				.adjective("foamed")
+//				.build();
+//
+//		BaseCoffeeIngredients compoundIngredients = coffeeBuilder.quantity(2)
+//				.unit("ml")
+//				.ingredient("milk")
+//				.adjective("foamed")
+//				.newIngredients()
+//				.quantity(12)
+//				.unit("cups")
+//				.ingredient("coffee-beans")
+//				.build();
+//
+//		BaseCoffeeIngredients extraCompoundIngredients = coffeeBuilder.quantity(2)
+//				.unit("ml")
+//				.ingredient("milk")
+//				.adjective("foamed")
+//				.newIngredients()
+//				.quantity(12)
+//				.unit("cups")
+//				.ingredient("coffee-beans")
+//				.newIngredients()
+//				.quantity(42)
+//				.unit("ml")
+//				.ingredient("syrup")
+//				.adjective("sweet")
+//				.build();
+//
+//		System.out.println(singleIngredients);
+//		System.out.println(compoundIngredients);
+//		System.out.println(extraCompoundIngredients);
+		//</editor-fold>
 	}
 
 }
