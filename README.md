@@ -1,6 +1,26 @@
 # ubb.dp.1819
 UBB Design Patterns repository for university year 2018-2019
 
+## Grading criteria
+1. Course presentations during the semster: 50% of final grade
+
+2. Lab presentations at the end of the semester:
+
+2.1. Identify from open-source project ( https://github.com/trending?since=daily ) OR use in B.A. Thesis, 2 patterns from each category (60% of lab grade):
+
+- Creational (except Singleton)
+
+- Structural
+
+- Behavioral 
+
+2.2. Question from 1-2 basic patterns (Creational, Structural or Behavioral) (40% of lab grade)
+
+2.3. Bonus max 1p: Question from 1 Arhitectural or Enterprise pattern
+
+2.4. Bonus max 1p: All lab assignments done and merge requests made for each 
+
+
 #### Git commands to update from remote repo
  
 git remote add upstream https://github.com/lzrmihnea/ubb.dp.1819
