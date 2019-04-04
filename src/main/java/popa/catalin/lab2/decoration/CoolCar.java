@@ -2,13 +2,24 @@ package popa.catalin.lab2.decoration;
 
 import popa.catalin.lab2.domain.Car;
 import popa.catalin.lab2.domain.Driveable;
+import popa.catalin.lab2.domain.component.AbstractCarComponent;
 import popa.catalin.lab2.pricing.CarPricingComposite;
+
+import java.util.List;
 
 public class CoolCar extends CarPricingComposite<CarDecoration> implements Driveable {
     private Car car;
 
     public CoolCar(Car car) {
         this.car = car;
+    }
+
+    public List<AbstractCarComponent> getCarComponentList() {
+        return car.getCarComponentList();
+    }
+
+    public List<CarDecoration> getCarDecorations() {
+        return elements;
     }
 
     @Override
