@@ -21,7 +21,7 @@ UBB Design Patterns repository for university year 2018-2019
 2.4. Bonus max 1p: All lab assignments done and merge requests made for each 
 
 
-#### Git commands to update from remote repo
+## Git commands to update from remote repo
  
 git remote add upstream https://github.com/lzrmihnea/ubb.dp.1819
 
