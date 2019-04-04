@@ -1,19 +1,11 @@
 package ro.ubb.dp1819;
 
-import jdk.javadoc.internal.doclets.toolkit.taglets.BaseInlineTaglet;
 import org.springframework.beans.factory.config.AutowireCapableBeanFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
-import ro.ubb.dp1819.panaite.dorinel.ex1.BaseCoffeeIngredients;
-import ro.ubb.dp1819.panaite.dorinel.ex1.CoffeeDataInterpreter;
-import ro.ubb.dp1819.panaite.dorinel.ex1.CoffeeDataInterpreterException;
-import ro.ubb.dp1819.panaite.dorinel.ex1.CoffeeIngredients;
-import ro.ubb.dp1819.panaite.dorinel.ex2.Coffee;
-import ro.ubb.dp1819.panaite.dorinel.ex2.CoffeeFactory;
-import ro.ubb.dp1819.panaite.dorinel.ex3.CoffeeBuilder;
-
-import java.util.List;
+import ro.ubb.dp1819.panaite.dorinel.lab1.ex1.BaseCoffeeIngredients;
+import ro.ubb.dp1819.panaite.dorinel.lab1.ex3.CoffeeBuilder;
 
 @SpringBootApplication
 public class Application {

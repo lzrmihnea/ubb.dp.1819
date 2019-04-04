@@ -1,8 +1,8 @@
-package ro.ubb.dp1819.panaite.dorinel.ex2;
+package ro.ubb.dp1819.panaite.dorinel.lab1.ex2;
 
-import ro.ubb.dp1819.panaite.dorinel.ex1.BaseCoffeeIngredients;
-import ro.ubb.dp1819.panaite.dorinel.ex1.CoffeeDataInterpreter;
-import ro.ubb.dp1819.panaite.dorinel.ex1.CoffeeDataInterpreterException;
+import ro.ubb.dp1819.panaite.dorinel.lab1.ex1.BaseCoffeeIngredients;
+import ro.ubb.dp1819.panaite.dorinel.lab1.ex1.CoffeeDataInterpreter;
+import ro.ubb.dp1819.panaite.dorinel.lab1.ex1.CoffeeDataInterpreterException;
 
 public class CoffeeFactoryImpl implements CoffeeFactory {
     private CoffeeDataInterpreter coffeeDataInterpreter;

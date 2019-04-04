@@ -1,7 +1,7 @@
-package ro.ubb.dp1819.panaite.dorinel.ex3;
+package ro.ubb.dp1819.panaite.dorinel.lab1.ex3;
 
-import ro.ubb.dp1819.panaite.dorinel.ex1.CoffeeIngredients;
-import ro.ubb.dp1819.panaite.dorinel.ex2.CompoundCoffeeIngredients;
+import ro.ubb.dp1819.panaite.dorinel.lab1.ex1.CoffeeIngredients;
+import ro.ubb.dp1819.panaite.dorinel.lab1.ex2.CompoundCoffeeIngredients;
 
 public class CoffeeBuilder {
     CoffeeIngredients coffeeIngredients;

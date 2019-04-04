@@ -2,12 +2,12 @@ package ro.ubb.dp1819;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import ro.ubb.dp1819.panaite.dorinel.ex1.CoffeeDataInterpreter;
-import ro.ubb.dp1819.panaite.dorinel.ex1.CoffeeDataInterpreterImpl;
-import ro.ubb.dp1819.panaite.dorinel.ex1.FileReadingService;
-import ro.ubb.dp1819.panaite.dorinel.ex1.FileReadingServiceImpl;
-import ro.ubb.dp1819.panaite.dorinel.ex2.CoffeeFactory;
-import ro.ubb.dp1819.panaite.dorinel.ex2.CoffeeFactoryImpl;
+import ro.ubb.dp1819.panaite.dorinel.lab1.ex1.CoffeeDataInterpreter;
+import ro.ubb.dp1819.panaite.dorinel.lab1.ex1.CoffeeDataInterpreterImpl;
+import ro.ubb.dp1819.panaite.dorinel.lab1.ex1.FileReadingService;
+import ro.ubb.dp1819.panaite.dorinel.lab1.ex1.FileReadingServiceImpl;
+import ro.ubb.dp1819.panaite.dorinel.lab1.ex2.CoffeeFactory;
+import ro.ubb.dp1819.panaite.dorinel.lab1.ex2.CoffeeFactoryImpl;
 
 @Configuration
 public class AppConfig {

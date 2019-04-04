@@ -1,9 +1,7 @@
-package ro.ubb.dp1819.panaite.dorinel.ex2;
+package ro.ubb.dp1819.panaite.dorinel.lab1.ex2;
 
-import ro.ubb.dp1819.panaite.dorinel.ex1.BaseCoffeeIngredients;
-import ro.ubb.dp1819.panaite.dorinel.ex1.CoffeeIngredients;
+import ro.ubb.dp1819.panaite.dorinel.lab1.ex1.BaseCoffeeIngredients;
 
-import java.util.Arrays;
 import java.util.Objects;
 
 public class CompoundCoffeeIngredients extends BaseCoffeeIngredients {
