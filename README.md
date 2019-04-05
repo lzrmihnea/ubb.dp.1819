@@ -39,6 +39,9 @@ http://www.cs.ubbcluj.ro/~arthur/dp2018/01.Recap.%20SOLID%20Principles.pdf
 ## Creational Patterns
 http://www.cs.ubbcluj.ro/~arthur/dp2018/02.Creational%20Patterns.pdf
 
+## Structural Patterns
+http://www.cs.ubbcluj.ro/~arthur/dp2018/03.Structural%20Patterns.pdf
+
 # Laboratories
 ## Lab 1. Creational Patterns
 - Singleton
