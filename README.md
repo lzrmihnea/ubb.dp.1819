@@ -167,3 +167,25 @@ Add to the mediator a list of Observers (abstract)
 Call the observer list each time an attack appears
 
 Add a third Observer, to your choice
+
+### Ex. 4.1. State
+Given a company with 3 types of Employees (Project Manager, Team Leader, Developer) and 3 possible billable day statuses (holiday, sick leave, working, home office, unpaid leave). 
+
+1. Using the State pattern implement the behavior for each type of day.
+2. Take into consideration that based on billable day type the paycheck will differ
+3. Add state attribute for billable amount information for employee (each employee has a different paycheck)
+
+
+### Ex. 4.2. Chain of responsibility
+
+Given the following:
+ - employees can go on various leave types holiday, sick leave, home office, unpaid leave
+ - leave days need to be approved
+ - the Project Manager needs to approve first, if the Project Manager is missing the Team Leader can approve instead of the Project Manager
+ 
+Using the Chain of Responsibility pattern implement the leave day approval system.
+
+
+### Ex. 4.3. Strategy
+
+Given the fact that employees need to be notified about leave day approval or rejection and that there are 3 official ways of communication in the company (SMS, Push Notification and Email). Using the Strategy pattern implement the behavior required for a holiday approver to notify each Employee in the chosen communication way.
