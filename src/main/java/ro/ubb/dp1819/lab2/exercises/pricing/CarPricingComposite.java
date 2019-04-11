@@ -1,15 +1,17 @@
 package ro.ubb.dp1819.lab2.exercises.pricing;
 
+import ro.ubb.dp1819.lab2.exercises.CarPriceable;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicReference;
 
-public class CarPricingComposite implements PriceableComponent {
+public class CarPricingComposite implements CarPriceable {
 
-    private List<PriceableComponent> elements = new ArrayList<>();
+    private List<CarPriceable> elements = new ArrayList<>();
     private String root;
 
-    public void addElement(PriceableComponent el) {
+    public void addElement(CarPriceable el) {
         this.elements.add(el);
     }
 

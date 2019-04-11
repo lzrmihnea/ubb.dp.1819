@@ -7,8 +7,9 @@ import java.util.List;
 public class LamborghiniCar implements Manufacturer{
 
     @Override
-    public void showCar(List<CarComponent> components) {
-        System.out.println("Lamborghini car:");
-        components.forEach(s -> System.out.println(s.getComponent()));
+    public String showCar(List<CarComponent> components) {
+        StringBuilder stringBuilder = new StringBuilder().append("Lamborghini:").append("\n");
+        components.forEach(s -> stringBuilder.append(s.getComponent()).append("\n"));
+        return stringBuilder.toString();
     }
 }

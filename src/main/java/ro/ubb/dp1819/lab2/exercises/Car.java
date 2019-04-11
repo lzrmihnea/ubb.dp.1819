@@ -8,9 +8,10 @@ import java.util.List;
 public abstract class Car implements Driveable {
      protected Manufacturer manufacturer;
 
+     protected Car() {}
      protected Car(Manufacturer manufacturer) {this.manufacturer = manufacturer;}
      @Override
-     public abstract void show();
+     public abstract String show();
      public abstract List<CarComponent> getComponents();
 }
 

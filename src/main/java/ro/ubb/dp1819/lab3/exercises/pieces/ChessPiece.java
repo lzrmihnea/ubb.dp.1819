@@ -12,9 +12,9 @@ public abstract class ChessPiece {
         this.color = color;
     }
 
-    enum ChessPieceColor{
+    public enum ChessPieceColor{
         WHITE,
-        BLACK;
+        BLACK,
     }
 
     public Position getPosition() {
@@ -39,5 +39,9 @@ public abstract class ChessPiece {
 
     public void setColor(ChessPieceColor color) {
         this.color = color;
+    }
+
+    public String toString() {
+        return this.getClass().getSimpleName() + "\n" + this.color;
     }
 }

@@ -2,7 +2,6 @@ package ro.ubb.dp1819.lab2.exercises.implementorBridge;
 
 import ro.ubb.dp1819.lab2.exercises.Car;
 import ro.ubb.dp1819.lab2.exercises.component.CarComponent;
-import ro.ubb.dp1819.lab2.exercises.implementorBridge.Manufacturer;
 
 import java.util.List;
 
@@ -15,8 +14,8 @@ public class SportsCar extends Car {
     }
 
     @Override
-    public void show() {
-        this.manufacturer.showCar(this.components);
+    public String show() {
+        return this.manufacturer.showCar(this.components);
     }
 
     public List<CarComponent> getComponents() {
