@@ -168,6 +168,8 @@ Call the observer list each time an attack appears
 
 Add a third Observer, to your choice
 
+## Lab 4. Behavioral patterns II (Command, Mediator, Observer)
+
 ### Ex. 4.1. State
 Given a company with 3 types of Employees (Project Manager, Team Leader, Developer) and 3 possible billable day statuses (holiday, sick leave, working, home office, unpaid leave). 
 
