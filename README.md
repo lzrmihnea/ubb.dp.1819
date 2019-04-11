@@ -1,6 +1,34 @@
 # ubb.dp.1819
 UBB Design Patterns repository for university year 2018-2019
 
+## Grading criteria
+1. Course presentations during the semster: 50% of final grade
+
+2. Lab presentations at the end of the semester:
+
+2.1. Identify from open-source project ( https://github.com/trending?since=daily ) OR use in B.A. Thesis, 2 patterns from each category (60% of lab grade):
+
+- Creational (except Singleton)
+
+- Structural
+
+- Behavioral 
+
+2.2. Question from 1-2 basic patterns (Creational, Structural or Behavioral) (40% of lab grade)
+
+2.3. Bonus max 1p: Question from 1 Arhitectural or Enterprise pattern
+
+2.4. Bonus max 1p: All lab assignments done and merge requests made for each 
+
+
+## Git commands to update from remote repo
+ 
+git remote add upstream https://github.com/lzrmihnea/ubb.dp.1819
+
+git fetch upstream 
+
+git pull upstream master
+
 # Lecture Notes
 ## Introduction to Course
 http://www.cs.ubbcluj.ro/~arthur/dp2018/00.Introduction%20to%20Course.pdf
@@ -10,6 +38,9 @@ http://www.cs.ubbcluj.ro/~arthur/dp2018/01.Recap.%20SOLID%20Principles.pdf
 
 ## Creational Patterns
 http://www.cs.ubbcluj.ro/~arthur/dp2018/02.Creational%20Patterns.pdf
+
+## Structural Patterns
+http://www.cs.ubbcluj.ro/~arthur/dp2018/03.Structural%20Patterns.pdf
 
 # Laboratories
 ## Lab 1. Creational Patterns
@@ -96,41 +127,30 @@ Ask your teachers if the instructions are unclear.
 
 ## Lab 3. Behavioral patterns (Command, Mediator, Observer)
 Chess pieces:
-- peon ( 1 square forward, 1 square diagonal attack )
+- peon ( 1 square forward movement )
 - horse ( L movement )
 - bishop ( diagonal movement )
-each piece has 
+
+each piece having
 - a current position (vert, horiz)
 - isAlive
 - color (black, white)
-
-MovementCommand : interface
-
-Possible commands:
-- peon 1 square forward
-- peon 1 square forward (only on attack)
-- horse L movement 
-- bishop diagonal movement 
-
-Mediator:
-- board
-- attacks 
-
-Observer: 
-- print movement for white pieces 
-
 
 ### Ex. 3.1. Command pattern
 Create movement command classes for each movement 
 - peon basic move ( 1 forward ) 
 - horse L movement 
 - bishop diagonal movement 
-- attack movement(fromPiece, toPiece) 
+
+Create attack command class:
+- attack movement(fromPiece, toPiece)
 
 
 ### Ex. 3.2. Mediator pattern 
 Create a Board (Mediator) with dimensions which takes a list of pieces, with positions along with their actions:
+
 The Mediator has always the list of where each piece is 
+
 Each movement of a piece is checked to see if there is already a piece there.
 
 - piece1 move => Mediator checks if there is another piece already there, invokes attack action if there is 
@@ -141,6 +161,33 @@ Each movement of a piece is checked to see if there is already a piece there.
 Observer : interface 
 - KillCounterObserver - counts kills
 - PrintObserver - simply prints 
+
 Add to the mediator a list of Observers (abstract)
+
 Call the observer list each time an attack appears
+
 Add a third Observer, to your choice
+
+## Lab 4. Behavioral patterns II (State, Chain of Responsibility, Strategy)
+
+### Ex. 4.1. State
+Given a company with 3 types of Employees (Project Manager, Team Leader, Developer) and 3 possible billable day statuses (holiday, sick leave, working, home office, unpaid leave). 
+
+1. Using the State pattern implement the behavior for each type of day.
+2. Take into consideration that based on billable day type the paycheck will differ
+3. Add state attribute for billable amount information for employee (each employee has a different paycheck)
+
+
+### Ex. 4.2. Chain of responsibility
+
+Given the following:
+ - employees can go on various leave types holiday, sick leave, home office, unpaid leave
+ - leave days need to be approved
+ - the Project Manager needs to approve first, if the Project Manager is missing the Team Leader can approve instead of the Project Manager
+ 
+Using the Chain of Responsibility pattern implement the leave day approval system.
+
+
+### Ex. 4.3. Strategy
+
+Given the fact that employees need to be notified about leave day approval or rejection and that there are 3 official ways of communication in the company (SMS, Push Notification and Email). Using the Strategy pattern implement the behavior required for a holiday approver to notify each Employee in the chosen communication way.
