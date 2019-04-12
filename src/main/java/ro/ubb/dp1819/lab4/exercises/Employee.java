@@ -7,6 +7,8 @@ public interface Employee {
 
     BillableDay currentBillableDay();
 
+    double getBillableDayPaycheck();
+
     NotificationType notificationMechanism();
 
 }
