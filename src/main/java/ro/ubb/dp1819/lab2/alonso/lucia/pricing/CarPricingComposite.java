@@ -1,4 +1,4 @@
-package ro.ubb.dp1819.lab2.exercises.pricing;
+package ro.ubb.dp1819.lab2.alonso.lucia.pricing;
 
 import java.util.ArrayList;
 import java.util.List;

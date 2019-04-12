@@ -6,7 +6,10 @@ import java.util.List;
 public final class IngredientsService {
 
 
-    public static List<Ingredient> stringListToIngredients(List<String> listeString){
+    public static List<Ingredient> stringListToIngredients(String path){
+
+        StringService ss = new StringService();
+        List<String> listeString = ss.fileToStringList(path);
 
         List<Ingredient> listeIngredients = new ArrayList<>();
 
