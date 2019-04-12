@@ -1,6 +1,6 @@
 package ro.ubb.dp1819.lab4.exercises;
 
-public class Constants {
+public final class Constants {
 
     public final static double DEVELOPER_PAYCHECK = 5000;
     public final static double TEAM_LEADER_PAYCHECK = 7500;
