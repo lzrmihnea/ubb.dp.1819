@@ -1,11 +1,9 @@
-import Adapter.Adapter;
-import Adapter.CarPartsReadingService;
-import Builder.CoffeeBuilder;
-import Factory.Coffee;
-import Factory.CoffeeFactory;
-import Factory.CoffeeFactoryImpl;
-import Factory.CoffeeIngredientsInterpreterException;
-import SOLID.*;
+import lab1.Builder.CoffeeBuilder;
+import lab1.Factory.Coffee;
+import lab1.Factory.CoffeeFactory;
+import lab1.Factory.CoffeeFactoryImpl;
+import lab1.Factory.CoffeeIngredientsInterpreterException;
+import lab1.SOLID.*;
 
 import java.util.Arrays;
 import java.util.List;
