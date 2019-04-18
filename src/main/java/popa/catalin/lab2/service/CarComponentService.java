@@ -12,7 +12,7 @@ import java.util.List;
 @Service
 public class CarComponentService implements CarComponentServiceInterface {
     public List<AbstractCarComponent> createComponentsFromStrings(List<String> carInputComponents) {
-        List<AbstractCarComponent> carComponents = new ArrayList<>();
+        List<AbstractCarComponent> carComponents = new ArrayList<>(); //
         List<Ingredient> ingredients = IngredientService.createIngredientsFromStrings(carInputComponents);
         for (Ingredient ingredient : ingredients) {
             int quantity = Math.round(ingredient.getQuantity());

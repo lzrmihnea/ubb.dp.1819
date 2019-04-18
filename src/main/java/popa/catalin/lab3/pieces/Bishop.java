@@ -1,7 +1,9 @@
-package ro.ubb.dp1819.lab3.exercises.pieces;
+package popa.catalin.lab3.pieces;
+
+import popa.catalin.lab3.Position;
 
 public class Bishop extends ChessPiece {
     public Bishop(int vertPos, int horizPos, boolean isAlive, ChessPieceColor color) {
-        super(vertPos, horizPos, isAlive, color);
+        super(new Position(vertPos, horizPos), isAlive, color);
     }
 }

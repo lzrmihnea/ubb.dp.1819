@@ -1,4 +1,6 @@
-package ro.ubb.dp1819.lab3.exercises.pieces;
+package popa.catalin.lab3.pieces;
+
+import popa.catalin.lab3.Position;
 
 public abstract class ChessPiece {
 
@@ -12,7 +14,7 @@ public abstract class ChessPiece {
         this.color = color;
     }
 
-    enum ChessPieceColor{
+    public enum ChessPieceColor{
         WHITE,
         BLACK;
     }

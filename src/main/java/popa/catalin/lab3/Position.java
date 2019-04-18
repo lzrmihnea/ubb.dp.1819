@@ -1,4 +1,4 @@
-package ro.ubb.dp1819.lab3.exercises.pieces;
+package popa.catalin.lab3;
 
 import java.util.Objects;
 
@@ -9,6 +9,11 @@ public class Position {
     public Position(int vertPos, int horizPos) {
         this.vertPos = vertPos;
         this.horizPos = horizPos;
+    }
+
+    public Position(Position position) {
+        this.vertPos = position.vertPos;
+        this.horizPos = position.horizPos;
     }
 
     public int getVertPos() {
