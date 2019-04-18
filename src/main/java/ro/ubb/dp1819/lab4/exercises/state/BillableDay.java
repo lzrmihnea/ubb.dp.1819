@@ -9,4 +9,6 @@ public interface BillableDay {
 
     boolean isEmployeeInOffice(Employee employee);
 
+    double getPay(double rawPay);
+
 }
