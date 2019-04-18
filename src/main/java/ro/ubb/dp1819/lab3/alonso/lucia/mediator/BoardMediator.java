@@ -1,7 +1,7 @@
-package ro.ubb.dp1819.lab3.exercises.mediator;
+package ro.ubb.dp1819.lab3.alonso.lucia.mediator;
 
-import ro.ubb.dp1819.lab3.exercises.pieces.ChessPiece;
-import ro.ubb.dp1819.lab3.exercises.pieces.Position;
+import ro.ubb.dp1819.lab3.alonso.lucia.pieces.ChessPiece;
+import ro.ubb.dp1819.lab3.alonso.lucia.pieces.Position;
 
 import java.util.HashMap;
 import java.util.Map;
