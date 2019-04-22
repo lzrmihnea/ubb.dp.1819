@@ -17,7 +17,8 @@ public class Main {
 
     private static String getFilesPath() {
         return PROJECT_DIRECTORY + SEPARATOR + "src" + SEPARATOR + "main" + SEPARATOR + "java" + SEPARATOR + "ro"
-                + SEPARATOR + "ubb" + SEPARATOR + "dp1819" + SEPARATOR + "exercises" + SEPARATOR + "files" + SEPARATOR;
+                + SEPARATOR + "ubb" + SEPARATOR + "dp1819" + SEPARATOR + "lab1" + SEPARATOR + "exercises"
+                + SEPARATOR + "files" + SEPARATOR;
     }
 
     public static void main(String[] args) {

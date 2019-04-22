@@ -1,4 +1,4 @@
-package ro.ubb.dp1819.lab4.exercises;
+package ro.ubb.dp1819.lab4.exercises.utils;
 
 public final class Constants {
 

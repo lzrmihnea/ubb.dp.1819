@@ -12,8 +12,8 @@ import ro.ubb.dp1819.lab4.exercises.strategy.SmsNotification;
 import java.util.Arrays;
 import java.util.List;
 
-import static ro.ubb.dp1819.lab4.exercises.Constants.APPROVED;
-import static ro.ubb.dp1819.lab4.exercises.Constants.DISAPPROVED;
+import static ro.ubb.dp1819.lab4.exercises.utils.Constants.APPROVED;
+import static ro.ubb.dp1819.lab4.exercises.utils.Constants.DISAPPROVED;
 
 public class Company {
 
