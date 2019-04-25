@@ -191,3 +191,23 @@ Using the Chain of Responsibility pattern implement the leave day approval syste
 ### Ex. 4.3. Strategy
 
 Given the fact that employees need to be notified about leave day approval or rejection and that there are 3 official ways of communication in the company (SMS, Push Notification and Email). Using the Strategy pattern implement the behavior required for a holiday approver to notify each Employee in the chosen communication way.
+
+
+## Lab 5. Enterprise integration patterns
+Download [__RabbitMQ__](https://www.rabbitmq.com/download.html) and run the service locally.
+
+Tutorials - [__Code Samples__](https://www.rabbitmq.com/getstarted.html)
+
+### Ex. 5.1 Producer/Consumer
+We have a mail client and we've noticed that sending emails is currently taking a long time (1sec). We need to decouple the sending of emails using a message broker (e.g. RabbitMQ) and ensure that we can process the messages asynchronously and with multiple consumers (workers) in parallel. 
+
+### Ex. 5.2 Publish/Subscribe
+Our current notification system has to send notifications via Email, PushNotifications and SMS Notifications. Currently each taken individually takes a long time to execute and we have to send the exact same message if the user has all of them configured.
+
+Using a message broker implement a publish/subscribe mechanism that can receive messages and distribute them to all connected notification subscribers.
+
+### Ex. 5.3 Topic
+
+We have an email sending service that is responsible for sending emails to customers across the world. Due to GDPR constraints we need to ensure that emails from each region are treated independently (e.g. USA, Europe etc.).
+
+Using a topic based message broker write a client that can send emails to their corresponding topic and implement consumers for each topic.
