@@ -1,6 +1,7 @@
 package popa.catalin.lab3.pieces;
 
 import popa.catalin.lab3.Position;
+import popa.catalin.lab3.command.MovementCommand;
 
 public abstract class ChessPiece {
 
@@ -8,13 +9,23 @@ public abstract class ChessPiece {
     private boolean isAlive;
     private ChessPieceColor color;
 
+    public MovementCommand getMovementCommand() {
+        return movementCommand;
+    }
+
+    public void setMovementCommand(MovementCommand movementCommand) {
+        this.movementCommand = movementCommand;
+    }
+
+    private MovementCommand movementCommand;
+
     public ChessPiece(Position pos, boolean isAlive, ChessPieceColor color) {
         this.position = pos;
         this.isAlive = isAlive;
         this.color = color;
     }
 
-    public enum ChessPieceColor{
+    public enum ChessPieceColor {
         WHITE,
         BLACK;
     }
