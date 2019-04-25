@@ -191,3 +191,9 @@ Using the Chain of Responsibility pattern implement the leave day approval syste
 ### Ex. 4.3. Strategy
 
 Given the fact that employees need to be notified about leave day approval or rejection and that there are 3 official ways of communication in the company (SMS, Push Notification and Email). Using the Strategy pattern implement the behavior required for a holiday approver to notify each Employee in the chosen communication way.
+
+
+## Lab 5. Enterprise integration patterns
+Download [__RabbitMQ__](https://www.rabbitmq.com/download.html) and run the service locally.
+
+ 
