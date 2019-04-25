@@ -16,4 +16,6 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	compile group: 'com.rabbitmq', name: 'amqp-client', version: '5.0.0'
 }
