@@ -4,11 +4,13 @@ import popa.catalin.lab3.pieces.ChessPiece;
 import popa.catalin.lab3.Position;
 
 public class AttackCommand {
-    void executeCommand(ChessPiece attackingPiece, ChessPiece attackedPiece) {
+    private static Position invalidPosition = new Position(-1, -1);
+
+    public static void attack(ChessPiece attackingPiece, ChessPiece attackedPiece) {
         Position newPosition = attackedPiece.getPosition();
-        Position invalidPosition = new Position(-1, -1);
+        attackingPiece.setPosition(newPosition);
+
         attackedPiece.setAlive(false);
         attackedPiece.setPosition(invalidPosition);
-        attackingPiece.setPosition(newPosition);
     }
 }

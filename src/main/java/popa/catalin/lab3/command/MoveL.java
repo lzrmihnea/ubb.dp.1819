@@ -3,7 +3,7 @@ package popa.catalin.lab3.command;
 import popa.catalin.lab3.pieces.ChessPiece;
 import popa.catalin.lab3.Position;
 
-public class MoveL implements MovementCommand {
+public class MoveL extends AbstractCommand {
     public MoveL(LDirection lDirection) {
         this.lDirection = lDirection;
     }
@@ -16,7 +16,7 @@ public class MoveL implements MovementCommand {
     }
 
     @Override
-    public void executeCommand(ChessPiece piece) {
+    public Position getResultingPosition(ChessPiece piece) {
         Position oldPosition = piece.getPosition();
         Position newPosition = null;
         switch (lDirection) {
@@ -44,6 +44,6 @@ public class MoveL implements MovementCommand {
                 newPosition = new Position(oldPosition.getVertPos() - 1, oldPosition.getHorizPos() + 2);
                 break;
         }
-        piece.setPosition(newPosition);
+        return newPosition;
     }
 }

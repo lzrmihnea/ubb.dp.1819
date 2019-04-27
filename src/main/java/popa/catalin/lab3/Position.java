@@ -45,4 +45,12 @@ public class Position {
     public int hashCode() {
         return Objects.hash(vertPos, horizPos);
     }
+
+    @Override
+    public String toString() {
+        return "Position{" +
+                "vertPos=" + vertPos +
+                ", horizPos=" + horizPos +
+                '}';
+    }
 }

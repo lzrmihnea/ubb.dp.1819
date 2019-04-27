@@ -2,12 +2,14 @@ package popa.catalin.lab3.pieces;
 
 import popa.catalin.lab3.Position;
 import popa.catalin.lab3.command.MovementCommand;
+import popa.catalin.lab3.mediator.BoardMediator;
 
 public abstract class ChessPiece {
-
     private Position position;
     private boolean isAlive;
     private ChessPieceColor color;
+    private BoardMediator boardMediator;
+    private MovementCommand movementCommand;
 
     public MovementCommand getMovementCommand() {
         return movementCommand;
@@ -16,8 +18,6 @@ public abstract class ChessPiece {
     public void setMovementCommand(MovementCommand movementCommand) {
         this.movementCommand = movementCommand;
     }
-
-    private MovementCommand movementCommand;
 
     public ChessPiece(Position pos, boolean isAlive, ChessPieceColor color) {
         this.position = pos;
@@ -52,5 +52,13 @@ public abstract class ChessPiece {
 
     public void setColor(ChessPieceColor color) {
         this.color = color;
+    }
+
+    public BoardMediator getBoardMediator() {
+        return boardMediator;
+    }
+
+    public void setBoardMediator(BoardMediator boardMediator) {
+        this.boardMediator = boardMediator;
     }
 }
