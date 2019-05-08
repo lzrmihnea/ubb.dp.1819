@@ -11,7 +11,7 @@ public class FactoryPattern {
         CoffeeService coffeeService = new CoffeeService();
 
         try {
-            List<String> words = stringService.readFromFile("D:\\Users\\labs\\design patterns\\ubb.dp.1819\\src\\main\\java\\ro\\ubb\\dp1819\\lab1\\exercises\\strings.txt");
+            List<String> words = stringService.readFromFile("D:\\Users\\Maria\\labs\\design patterns\\ubb.dp.1819\\src\\main\\java\\ro\\ubb\\dp1819\\lab1\\exercises\\strings.txt");
             List<Ingredient> ingredients = coffeeService.getIngredientsFromList(words);
             System.out.println(ingredients);
 
