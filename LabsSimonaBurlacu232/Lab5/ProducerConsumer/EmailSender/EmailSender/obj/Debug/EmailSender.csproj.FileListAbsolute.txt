@@ -1,0 +1,11 @@
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\ProducerConsumer\EmailSender\EmailSender\obj\Debug\EmailSender.csproj.CoreCompileInputs.cache
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\ProducerConsumer\EmailSender\EmailSender\bin\Debug\EmailSender.exe.config
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\ProducerConsumer\EmailSender\EmailSender\bin\Debug\EmailSender.exe
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\ProducerConsumer\EmailSender\EmailSender\bin\Debug\EmailSender.pdb
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\ProducerConsumer\EmailSender\EmailSender\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\ProducerConsumer\EmailSender\EmailSender\bin\Debug\RabbitMQ.Client.dll
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\ProducerConsumer\EmailSender\EmailSender\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\ProducerConsumer\EmailSender\EmailSender\bin\Debug\RabbitMQ.Client.xml
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\ProducerConsumer\EmailSender\EmailSender\obj\Debug\EmailSender.csproj.CopyComplete
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\ProducerConsumer\EmailSender\EmailSender\obj\Debug\EmailSender.exe
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\ProducerConsumer\EmailSender\EmailSender\obj\Debug\EmailSender.pdb

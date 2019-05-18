@@ -1,0 +1,12 @@
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\ReceiverEurope\bin\Debug\ReceiverEurope.exe.config
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\ReceiverEurope\bin\Debug\ReceiverEurope.exe
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\ReceiverEurope\bin\Debug\ReceiverEurope.pdb
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\ReceiverEurope\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\ReceiverEurope\bin\Debug\RabbitMQ.Client.dll
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\ReceiverEurope\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\ReceiverEurope\bin\Debug\RabbitMQ.Client.xml
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\ReceiverEurope\obj\Debug\ReceiverEurope.csproj.CoreCompileInputs.cache
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\ReceiverEurope\obj\Debug\ReceiverEurope.csproj.CopyComplete
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\ReceiverEurope\obj\Debug\ReceiverEurope.exe
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\ReceiverEurope\obj\Debug\ReceiverEurope.pdb
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\ReceiverEurope\obj\Debug\ReceiverEurope.csprojAssemblyReference.cache

@@ -1,0 +1,7 @@
+E:\FACULTATE\Anul3\Sem2\DP\Lab3\ChessGame\ChessGame\bin\Debug\ChessGame.exe.config
+E:\FACULTATE\Anul3\Sem2\DP\Lab3\ChessGame\ChessGame\bin\Debug\ChessGame.exe
+E:\FACULTATE\Anul3\Sem2\DP\Lab3\ChessGame\ChessGame\bin\Debug\ChessGame.pdb
+E:\FACULTATE\Anul3\Sem2\DP\Lab3\ChessGame\ChessGame\obj\Debug\ChessGame.csprojAssemblyReference.cache
+E:\FACULTATE\Anul3\Sem2\DP\Lab3\ChessGame\ChessGame\obj\Debug\ChessGame.csproj.CoreCompileInputs.cache
+E:\FACULTATE\Anul3\Sem2\DP\Lab3\ChessGame\ChessGame\obj\Debug\ChessGame.exe
+E:\FACULTATE\Anul3\Sem2\DP\Lab3\ChessGame\ChessGame\obj\Debug\ChessGame.pdb

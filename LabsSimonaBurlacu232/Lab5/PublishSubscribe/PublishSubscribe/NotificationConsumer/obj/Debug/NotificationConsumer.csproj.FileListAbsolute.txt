@@ -1,0 +1,11 @@
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\PublishSubscribe\PublishSubscribe\NotificationConsumer\bin\Debug\NotificationConsumer.exe.config
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\PublishSubscribe\PublishSubscribe\NotificationConsumer\bin\Debug\NotificationConsumer.exe
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\PublishSubscribe\PublishSubscribe\NotificationConsumer\bin\Debug\NotificationConsumer.pdb
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\PublishSubscribe\PublishSubscribe\NotificationConsumer\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\PublishSubscribe\PublishSubscribe\NotificationConsumer\bin\Debug\RabbitMQ.Client.dll
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\PublishSubscribe\PublishSubscribe\NotificationConsumer\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\PublishSubscribe\PublishSubscribe\NotificationConsumer\bin\Debug\RabbitMQ.Client.xml
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\PublishSubscribe\PublishSubscribe\NotificationConsumer\obj\Debug\NotificationConsumer.csproj.CoreCompileInputs.cache
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\PublishSubscribe\PublishSubscribe\NotificationConsumer\obj\Debug\NotificationConsumer.csproj.CopyComplete
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\PublishSubscribe\PublishSubscribe\NotificationConsumer\obj\Debug\NotificationConsumer.exe
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\PublishSubscribe\PublishSubscribe\NotificationConsumer\obj\Debug\NotificationConsumer.pdb

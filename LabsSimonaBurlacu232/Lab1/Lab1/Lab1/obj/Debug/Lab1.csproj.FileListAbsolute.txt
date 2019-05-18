@@ -1,0 +1,13 @@
+E:\FACULTATE\Anul3\Sem2\DP\Lab1\Lab1\Lab1\bin\Debug\Lab1.exe.config
+E:\FACULTATE\Anul3\Sem2\DP\Lab1\Lab1\Lab1\bin\Debug\Lab1.exe
+E:\FACULTATE\Anul3\Sem2\DP\Lab1\Lab1\Lab1\bin\Debug\Lab1.pdb
+E:\FACULTATE\Anul3\Sem2\DP\Lab1\Lab1\Lab1\obj\Debug\Lab1.csprojAssemblyReference.cache
+E:\FACULTATE\Anul3\Sem2\DP\Lab1\Lab1\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+E:\FACULTATE\Anul3\Sem2\DP\Lab1\Lab1\Lab1\obj\Debug\Lab1.exe
+E:\FACULTATE\Anul3\Sem2\DP\Lab1\Lab1\Lab1\obj\Debug\Lab1.pdb
+E:\FACULTATE\Anul3\Sem2\DP\Lab1\Lab1\Lab1\bin\Debug\EntityFramework.dll
+E:\FACULTATE\Anul3\Sem2\DP\Lab1\Lab1\Lab1\bin\Debug\EntityFramework.SqlServer.dll
+E:\FACULTATE\Anul3\Sem2\DP\Lab1\Lab1\Lab1\bin\Debug\EntityFramework.xml
+E:\FACULTATE\Anul3\Sem2\DP\Lab1\Lab1\Lab1\bin\Debug\EntityFramework.SqlServer.xml
+E:\FACULTATE\Anul3\Sem2\DP\Lab1\Lab1\Lab1\obj\Debug\Lab1.csproj.CopyComplete
+E:\FACULTATE\Anul3\Sem2\DP\Lab1\Lab1\Lab1\bin\Debug\Resources\ingredients.txt

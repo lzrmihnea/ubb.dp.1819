@@ -1,0 +1,11 @@
+E:\FACULTATE\Anul3\Sem2\DP\Lab4\LeaveDays\LeaveDays\obj\Debug\LeaveDays.csprojAssemblyReference.cache
+E:\FACULTATE\Anul3\Sem2\DP\Lab4\LeaveDays\LeaveDays\obj\Debug\LeaveDays.csproj.CoreCompileInputs.cache
+E:\FACULTATE\Anul3\Sem2\DP\Lab4\LeaveDays\LeaveDays\bin\Debug\LeaveDays.exe.config
+E:\FACULTATE\Anul3\Sem2\DP\Lab4\LeaveDays\LeaveDays\bin\Debug\LeaveDays.exe
+E:\FACULTATE\Anul3\Sem2\DP\Lab4\LeaveDays\LeaveDays\bin\Debug\LeaveDays.pdb
+E:\FACULTATE\Anul3\Sem2\DP\Lab4\LeaveDays\LeaveDays\bin\Debug\Microsoft.Owin.dll
+E:\FACULTATE\Anul3\Sem2\DP\Lab4\LeaveDays\LeaveDays\bin\Debug\Owin.dll
+E:\FACULTATE\Anul3\Sem2\DP\Lab4\LeaveDays\LeaveDays\bin\Debug\Microsoft.Owin.xml
+E:\FACULTATE\Anul3\Sem2\DP\Lab4\LeaveDays\LeaveDays\obj\Debug\LeaveDays.csproj.CopyComplete
+E:\FACULTATE\Anul3\Sem2\DP\Lab4\LeaveDays\LeaveDays\obj\Debug\LeaveDays.exe
+E:\FACULTATE\Anul3\Sem2\DP\Lab4\LeaveDays\LeaveDays\obj\Debug\LeaveDays.pdb

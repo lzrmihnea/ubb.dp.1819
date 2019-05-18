@@ -1,0 +1,11 @@
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\EmitTopic\bin\Debug\EmitTopic.exe.config
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\EmitTopic\bin\Debug\EmitTopic.exe
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\EmitTopic\bin\Debug\EmitTopic.pdb
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\EmitTopic\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\EmitTopic\bin\Debug\RabbitMQ.Client.dll
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\EmitTopic\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\EmitTopic\bin\Debug\RabbitMQ.Client.xml
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\EmitTopic\obj\Debug\EmitTopic.csproj.CoreCompileInputs.cache
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\EmitTopic\obj\Debug\EmitTopic.csproj.CopyComplete
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\EmitTopic\obj\Debug\EmitTopic.exe
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\EmitTopic\obj\Debug\EmitTopic.pdb

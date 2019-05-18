@@ -1,0 +1,11 @@
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\ProducerConsumer\EmailSender\EmailReceiver\bin\Debug\EmailReceiver.exe.config
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\ProducerConsumer\EmailSender\EmailReceiver\bin\Debug\EmailReceiver.exe
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\ProducerConsumer\EmailSender\EmailReceiver\bin\Debug\EmailReceiver.pdb
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\ProducerConsumer\EmailSender\EmailReceiver\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\ProducerConsumer\EmailSender\EmailReceiver\bin\Debug\RabbitMQ.Client.dll
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\ProducerConsumer\EmailSender\EmailReceiver\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\ProducerConsumer\EmailSender\EmailReceiver\bin\Debug\RabbitMQ.Client.xml
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\ProducerConsumer\EmailSender\EmailReceiver\obj\Debug\EmailReceiver.csproj.CoreCompileInputs.cache
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\ProducerConsumer\EmailSender\EmailReceiver\obj\Debug\EmailReceiver.csproj.CopyComplete
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\ProducerConsumer\EmailSender\EmailReceiver\obj\Debug\EmailReceiver.exe
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\ProducerConsumer\EmailSender\EmailReceiver\obj\Debug\EmailReceiver.pdb

@@ -1,0 +1,11 @@
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\ReceiverTopic\bin\Debug\ReceiverTopic.exe.config
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\ReceiverTopic\bin\Debug\ReceiverTopic.exe
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\ReceiverTopic\bin\Debug\ReceiverTopic.pdb
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\ReceiverTopic\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\ReceiverTopic\bin\Debug\RabbitMQ.Client.dll
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\ReceiverTopic\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\ReceiverTopic\bin\Debug\RabbitMQ.Client.xml
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\ReceiverTopic\obj\Debug\ReceiverUSA.csproj.CoreCompileInputs.cache
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\ReceiverTopic\obj\Debug\ReceiverUSA.csproj.CopyComplete
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\ReceiverTopic\obj\Debug\ReceiverTopic.exe
+E:\FACULTATE\Anul3\Sem2\DP\Lab5\Topic\Topic\ReceiverTopic\obj\Debug\ReceiverTopic.pdb

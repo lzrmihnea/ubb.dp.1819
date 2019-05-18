@@ -1,0 +1,8 @@
+E:\FACULTATE\Anul3\Sem2\DP\Lab2\Cars\Cars\bin\Debug\Cars.exe.config
+E:\FACULTATE\Anul3\Sem2\DP\Lab2\Cars\Cars\bin\Debug\Cars.exe
+E:\FACULTATE\Anul3\Sem2\DP\Lab2\Cars\Cars\bin\Debug\Cars.pdb
+E:\FACULTATE\Anul3\Sem2\DP\Lab2\Cars\Cars\obj\Debug\Cars.csprojAssemblyReference.cache
+E:\FACULTATE\Anul3\Sem2\DP\Lab2\Cars\Cars\obj\Debug\Cars.csproj.CoreCompileInputs.cache
+E:\FACULTATE\Anul3\Sem2\DP\Lab2\Cars\Cars\obj\Debug\Cars.exe
+E:\FACULTATE\Anul3\Sem2\DP\Lab2\Cars\Cars\obj\Debug\Cars.pdb
+E:\FACULTATE\Anul3\Sem2\DP\Lab2\Cars\Cars\bin\Debug\Resources\carParts.txt
