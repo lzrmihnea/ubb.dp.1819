@@ -1,4 +1,4 @@
-package popa.catalin.lab5.ex1_producer_consumer;
+package popa.catalin.scrap;
 
 public class MailService {
 

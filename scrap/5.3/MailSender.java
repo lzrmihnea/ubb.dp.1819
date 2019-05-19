@@ -1,4 +1,4 @@
-package ro.ubb.dp1819.lab5.exercises.ex3_topic;
+package popa.catalin.lab5.ex3;
 
 public class MailSender {
 
@@ -9,7 +9,7 @@ public class MailSender {
         }
     }
 
-    private enum RegionType {
+    public enum RegionType {
         usa, eu
     }
 

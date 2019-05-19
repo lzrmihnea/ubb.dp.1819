@@ -37,11 +37,11 @@ public class BoardMediator extends AbstractSubject implements CustomSubject {
             // kill counter
             notifyAllObservers();
 
-            notifyAllObservers(newPosition.toString()+" killed "+oldPosition.toString());
+            notifyAllObservers(newPosition.toString() + " killed " + oldPosition.toString());
         } else {
             chessPiece.setPosition(newPosition);
 
-            notifyAllObservers(newPosition.toString()+" moved to "+oldPosition.toString());
+            notifyAllObservers(newPosition.toString() + " moved to " + oldPosition.toString());
         }
         boardMap.remove(oldPosition);
         boardMap.put(newPosition, chessPiece);

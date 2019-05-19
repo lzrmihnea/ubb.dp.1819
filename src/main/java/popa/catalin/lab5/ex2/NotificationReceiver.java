@@ -1,5 +1,6 @@
-package ro.ubb.dp1819.lab5.exercises.ex2_publish_subscribe;
+package popa.catalin.lab5.ex2;
 
 public interface NotificationReceiver {
     String receiveMessage();
+    void stopReceiver();
 }

@@ -17,7 +17,7 @@ public class EmitLog {
 
     channel.exchangeDeclare(EXCHANGE_NAME, BuiltinExchangeType.FANOUT);
 
-    String message = getMessage(argv);
+    String message = "HENLO FRIEN";
 
     channel.basicPublish(EXCHANGE_NAME, "", null, message.getBytes("UTF-8"));
     System.out.println(" [x] Sent '" + message + "'");
