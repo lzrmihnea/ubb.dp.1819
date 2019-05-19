@@ -1,7 +1,5 @@
 package popa.catalin.lab5.ex3;
 
-import popa.catalin.lab5.ex3.TopicMailService;
-
 public class MailSender {
 
     public static void main(String[] args) {
@@ -15,7 +13,7 @@ public class MailSender {
         usa, eu
     }
 
-    public static String getRandomTopic() {
+    private static String getRandomTopic() {
         return Math.random() < 0.5D ? RegionType.eu.name() : RegionType.usa.name();
     }
 }

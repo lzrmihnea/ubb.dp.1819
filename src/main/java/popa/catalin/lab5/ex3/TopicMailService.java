@@ -22,11 +22,8 @@ public class TopicMailService {
 
             channel.exchangeDeclare(EXCHANGE_NAME, BuiltinExchangeType.TOPIC);
 
-            String routingKey = topic;
-            String message = msg;
-
-            channel.basicPublish(EXCHANGE_NAME, routingKey, null, message.getBytes("UTF-8"));
-            System.out.println(" [x] Sent '" + routingKey + "':'" + message + "'");
+            channel.basicPublish(EXCHANGE_NAME, topic, null, msg.getBytes("UTF-8"));
+            System.out.println(" [x] Sent '" + topic + "':'" + msg + "'");
 
         }
         catch  (Exception e) {

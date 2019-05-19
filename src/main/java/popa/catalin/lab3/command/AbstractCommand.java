@@ -1,6 +1,5 @@
 package popa.catalin.lab3.command;
 
-import popa.catalin.lab3.mediator.BoardMediator;
 import popa.catalin.lab3.pieces.ChessPiece;
 
 public abstract class AbstractCommand implements MovementCommand {

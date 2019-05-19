@@ -7,7 +7,6 @@ public class MoveForward extends AbstractCommand{
     @Override
     public Position getResultingPosition(ChessPiece piece) {
         Position oldPosition = piece.getPosition();
-        Position newPosition = new Position(oldPosition.getVertPos()+1,oldPosition.getHorizPos());
-        return newPosition;
+        return new Position(oldPosition.getVertPos()+1,oldPosition.getHorizPos());
     }
 }

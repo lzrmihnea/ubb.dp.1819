@@ -12,7 +12,7 @@ public class MailService {
     private static final String TASK_QUEUE_NAME = "task_queue";
     private ExecutorService executorService = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
 
-    public void sendMail(String msg) throws Exception {
+    public void sendMail(String msg) {
         Runnable command = () -> {
             try {
                 enqueueMail(msg);

@@ -1,6 +1,5 @@
 package popa.catalin.lab4.employees;
 
-import popa.catalin.lab4.state.Days;
 import popa.catalin.lab4.strategy.NotificationType;
 
 public class TeamLeader extends AbstractEmployee{

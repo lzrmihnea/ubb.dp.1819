@@ -3,8 +3,6 @@ package popa.catalin.lab5.ex3;
 import popa.catalin.lab5.common.EmptyQueueException;
 import popa.catalin.lab5.common.Utilities;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 

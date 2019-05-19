@@ -31,6 +31,7 @@ public class MoveL extends AbstractCommand {
                 break;
             case BackwardRight:
                 newPosition = new Position(oldPosition.getVertPos() - 2, oldPosition.getHorizPos() + 1);
+                break;
             case LeftForward:
                 newPosition = new Position(oldPosition.getVertPos() + 1, oldPosition.getHorizPos() - 2);
                 break;

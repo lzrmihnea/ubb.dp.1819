@@ -5,7 +5,7 @@ public class CIAObserver implements CustomObserver {
 
     @Override
     public void recieveMessage(String message) {
-        log.append(message+"\n");
+        log.append(message).append("\n");
     }
 
     public String getLog()

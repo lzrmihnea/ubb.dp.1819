@@ -6,9 +6,6 @@ import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.GetResponse;
 import popa.catalin.lab5.common.EmptyQueueException;
 
-import java.io.IOException;
-import java.util.concurrent.TimeoutException;
-
 import static popa.catalin.lab5.common.Utilities.closeConnectionAndChannel;
 
 public class MailWorkerImpl implements MailWorker {

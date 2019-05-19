@@ -5,7 +5,6 @@ import popa.catalin.lab5.common.EmptyQueueException;
 import popa.catalin.lab5.common.Utilities;
 
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeoutException;
@@ -36,7 +35,9 @@ public class NotificationReceiverImpl implements NotificationReceiver {
                                            AMQP.BasicProperties properties, byte[] body) throws IOException {
                     String message = new String(body, "UTF-8");
 
-                    mutex.lock();
+                    mutex.lock(); // not the best possible implementation, but it's the best solution I have
+                    // that doesen't 'steal' the messages from the queue, prevening other subscribers from
+                    // receiving them ...
                     messageQueue.add(message);
                     mutex.unlock();
                 }
