@@ -42,6 +42,12 @@ http://www.cs.ubbcluj.ro/~arthur/dp2018/02.Creational%20Patterns.pdf
 ## Structural Patterns
 http://www.cs.ubbcluj.ro/~arthur/dp2018/03.Structural%20Patterns.pdf
 
+## Behavioural Patterns
+http://www.cs.ubbcluj.ro/~arthur/dp2018/04.Behavioural%20Patterns.pdf
+
+## Architectural Patterns
+http://www.cs.ubbcluj.ro/~arthur/dp2018/05.Architectural%20Patterns.pdf
+
 # Laboratories
 ## Lab 1. Creational Patterns
 - Singleton
