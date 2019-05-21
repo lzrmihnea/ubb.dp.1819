@@ -1,0 +1,4 @@
+interface Composite {
+
+    void printAll();
+}

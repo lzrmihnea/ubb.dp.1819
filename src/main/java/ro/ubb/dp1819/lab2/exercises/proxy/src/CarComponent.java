@@ -1,0 +1,3 @@
+interface CarComponent {
+    int price();
+}
